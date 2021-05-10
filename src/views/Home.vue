@@ -32,7 +32,7 @@
       </v-tab-item>
       <v-tab-item>
         <v-card color="basil" flat>
-          <v-card-text><h3>4</h3></v-card-text>
+          <v-card-text><Stats /></v-card-text>
         </v-card>
       </v-tab-item>
     </v-tabs-items>
@@ -43,12 +43,14 @@
 import About from "../components/About/About";
 import Fixtures from "../components/Fixtures/Fixtures";
 import Standings from "../components/Standings/Standings";
+import Stats from "../components/Stats/Stats";
 export default {
   name: "Home",
   components: {
     About,
     Fixtures,
     Standings,
+    Stats,
   },
   data() {
     return {

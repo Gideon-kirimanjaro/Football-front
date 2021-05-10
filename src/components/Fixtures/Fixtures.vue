@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-col class="d-flex justify-center">
-      <v-simple-table dark height="200">
+      <v-simple-table dark>
         <template v-slot:default>
           <thead>
             <tr>
